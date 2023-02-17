@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    connection_pool (2.3.0)
+    ffi (1.15.5)
+    get_process_mem (0.2.7)
+      ffi (~> 1.0)
+    rack (2.2.6.2)
+    redis (4.8.1)
+    sidekiq (6.5.8)
+      connection_pool (>= 2.2.5, < 3)
+      rack (~> 2.0)
+      redis (>= 4.5.0, < 5)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  get_process_mem
+  sidekiq (< 7)
+
+BUNDLED WITH
+   2.4.7
